@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+
+main{
+margin: auto;
+width: 20%;
+background-color: hsl(213, 19%, 18%);
+padding: 2em;
+padding-bottom: 3em;
+border-radius: 2em;
+overflow: hidden;
+text-align: left;
+display: block;
+} 
+
+.star{
+    margin-bottom: 2em;
+
+}
+
+span{
+    border-radius: 3em;
+    padding: 0.8em;
+    background-color: hsla(217, 12%, 63%, 0.255);;
+}
+
+.text h3{
+    margin-bottom: 0.5em;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.text p{
+    margin-bottom: 2em;
+    font-size: 18px;
+color: hsl(217, 12%, 63%);
+font-weight: 100;
+line-height: 25px;
+}
+
+#numbers{
+    margin-bottom: 2em;
+}
+
+
+#submit{
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    padding: 1em;
+    border-radius: 2em;
+    border: none;
+    color: white;
+    font-size: 1em;
+    margin-top: 1em;
+}
+
+ #button{
+    background-color:hsla(217, 12%, 63%, 0.255);
+    color: white;
+    border-radius: 9em;
+    padding: 1.7em;
+    border-style: none;
+    color:hsl(217, 12%, 63%);
+    margin-left: 0.7em;
+
+}
+#button:hover{
+    background-color:  hsl(217, 12%, 63%);
+    color: white;
+    cursor: pointer;
+}
+
+#btn{
+    background-color:hsla(217, 12%, 63%, 0.255);
+    color: white;
+    border-radius: 9em;
+    padding: 1.3em;
+    border-style: none;
+    width: 100%;
+    background-color:  hsl(25, 97%, 53%);
+}
+
+#btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    color:hsl(25, 97%, 53%);
+}
+
+#popUp{
+    margin: auto;
+    width: 20%;
+    background-color: hsl(213, 19%, 18%);
+    padding: 2em;
+    border-radius: 2em;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    display: none;
+    } 
+    
+    #popUp #para{
+        color:rgb(255, 176, 29);
+        border-radius: 130em;
+        padding: 0.8em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: 1.9em;
+        width: 80%;
+        background-color:hsla(240, 10%, 55%, 0.182);
+       font-size: 20px;
+       font-weight: bold;
+    }
+
+    h2{
+        padding-bottom: 0.5em;
+    }
+
+    #popUp p{
+        padding-bottom: 1em;
+        font-size: 16.3px;
+        font-weight: 100;
+        color: hsl(217, 12%, 63%);
+        line-height: 18px;
+
+
+
+    }
+
+    @media (max-width: 375px){
+        body{
+            height: 100vh;
+            align-items: center;
+
+        }
+
+        main{
+            width: 90%;
+            border-radius: 1em;
+        }
+
+        
+ #button{
+    background-color:hsla(217, 12%, 63%, 0.255);
+    color: white;
+    border-radius: 9em;
+    padding: 1.3em;
+    border-style: none;
+    margin-left: 0.3em;
+    color:hsl(217, 12%, 63%);
+}
+.text p{
+    font-size: 13.7px;
+    line-height: 18px;
+}
+#popUp{
+    margin: auto;
+    width: 90%;
+    background-color: hsl(213, 19%, 18%);
+    padding: 2em;
+    border-radius: 1em;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    display: none;
+    } 
+
+    #popUp p{
+        color: hsl(217, 12%, 63%);
+        font-size: 12.4px;
+        line-height: 18px;
+
+    }
+
+    #popUp #para{
+        color:rgb(255, 176, 29);
+        background-color:hsla(240, 10%, 55%, 0.182);
+        margin-bottom: 1.6em;
+        padding: 0.5em;
+        width: 75%;
+        font-size: 15px;
+      
+
+    }
+
+
+    #button:hover{
+        background-color:  hsl(217, 12%, 63%);
+        color: white;
+    }
+#btn{
+    padding: 1em;
+}
+    
+}
