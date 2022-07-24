@@ -1,5 +1,5 @@
 
-const btns = document.querySelectorAll('#button');
+const btns = document.querySelectorAll('.button')
 const rateService = function(){
     const para = document.getElementById('para')
 
